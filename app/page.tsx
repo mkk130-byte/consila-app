@@ -1,4 +1,4 @@
-import { evaluateProjectRisk } from "@/lib/risk-engine"
+import { evaluateProjectRisk } from "../lib/risk-engine"
 
 export default function Page() {
   const result = evaluateProjectRisk({
